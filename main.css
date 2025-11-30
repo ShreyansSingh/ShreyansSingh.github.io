@@ -51,8 +51,10 @@ table {
 	border-spacing: 0;
 }
 
-#portfolio{                                          /* portfolio */
+#wrapper {
 	height:500px;
+}
+#portfolio{                                          /* portfolio */
 	background-color: #ffd4d1;
 }
 
