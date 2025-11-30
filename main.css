@@ -51,6 +51,9 @@ table {
 	border-spacing: 0;
 }
 
+#portfolio{
+	height:4000px;
+}
 body {
 	-webkit-text-size-adjust: none;
 }
