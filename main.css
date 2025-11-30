@@ -51,6 +51,9 @@ table {
 	border-spacing: 0;
 }
 
+#bump{
+	font-size: x-large;
+}
 #wrapper {
 	height:500px;
 }
