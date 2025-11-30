@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shreyans - Portfolio</title>
-    <!-- Link to your CSS file -->
+    <!-- css -->
     <style> 
+        header {
+            font-size: x-large;
+            font-color: #3d163c;
+        }
         body {
             background-color: lightblue;
             font-family: "Arial", "Helvetica", sans-serif;
@@ -16,12 +20,16 @@
             font-size: small;
             text-align: center;
         }
+        #port {
+            width:200px;
+            height: 200px;
+        }
     </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header with Navigation -->
+    <!-- headers -->
     <header>
         <nav>
             <ul>
@@ -32,36 +40,44 @@
         </nav>
     </header>
 
-    <!-- Hero/Introduction Section -->
+    <!-- me -->
     <section id="hero">
         <h1>Shreyans Singh</h1>
         <p>Student</p>
-        <!-- Maybe add a professional photo here -->
+        <!-- add photo of me -->
     </section>
 
-    <!-- About Me Section -->
+    <!-- about me-->
     <section id="about">
         <h2>About Me</h2>
         <p>Hi! I'm Shreyans Singh.</p>
-        <!-- You can add more details like skills, experience, etc. -->
+        <!-- more sooon! -->
     </section>
 
-    <!-- Portfolio Section -->
+    <!-- Portfolio! -->
     <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="project-gallery">
-            <!-- Repeat for each project -->
+            <!-- start-->
             <div class="project">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Icon-round-Question_mark.svg" alt="Project Title">
+                <img id="port" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Icon-round-Question_mark.svg" alt="Project Title">
                 <h3>Question Marking</h3>
-                <p>A project on how to replace this with an actual product eventually.</p>
+                <p>A project on how to replace this with an actual project eventually...</p>
                 <a href="https://www.youtube.com/">View Project</a>
             </div>
-            <!-- End project repeat -->
+            <!-- end -->
+            <div class="project">
+                <img id="port" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Icon-round-Question_mark.svg" alt="Project Title">
+                <h3>Question Marking 2</h3>
+                <p>A project on how to replace this with an actual second project eventually.</p>
+                <a href="https://www.youtube.com/">View Project</a>
+            </div>
+            
         </div>
+        
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact -->
     <section id="contact">
         <h2>Contact</h2>
         <p>Need to talk?</p>
@@ -70,10 +86,8 @@
         <p>Discord: <a >sliceofcheeseyza</a></p>
     </section>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Shreyans Singh. All rights reserved.</p>
-        <!-- Add links to social media -->
     </footer>
 
     <!-- Link to your JavaScript file (optional) -->
