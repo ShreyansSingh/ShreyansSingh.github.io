@@ -52,12 +52,14 @@ table {
 }
 
 #bump{
-	font-size: x-large;
-	text-align: middle;
+	font-size: xx-large;
+	text-align: center;
 }
+
 #wrapper {
 	height:500px;
 }
+
 #portfolio{                                          /* portfolio */
 	background-color: #ffe7e6;
 }
