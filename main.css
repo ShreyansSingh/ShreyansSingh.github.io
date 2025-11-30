@@ -53,7 +53,9 @@ table {
 
 #portfolio{
 	height:4000px;
+	background-color: #ad8749;
 }
+
 body {
 	-webkit-text-size-adjust: none;
 }
